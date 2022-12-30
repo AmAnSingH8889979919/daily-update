@@ -12,8 +12,8 @@ export default function Header() {
             <div className='header-list'>
                 <ul>
                       <li><Link to="notes/">Today's plan</Link></li>
-                    <li><Link to="news/"> News</Link></li>
-                    <li><Link to="/">Weather</Link></li>
+                    <li><Link to="/"> News</Link></li>
+                    <li><Link to="news/">Weather</Link></li>
 
                 </ul>
             </div>
