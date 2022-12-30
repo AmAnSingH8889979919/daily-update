@@ -16,8 +16,8 @@
        <b>{moment().format('dddd, Do MMM YY')}</b>
             <Routes>
                    <Route path='notes/'  element={ <Plan/>}></Route>
-                <Route path='news/'  element={<News/>}></Route>
-                <Route path='/' element={<Weather/>}></Route>
+                <Route path='/'  element={<News/>}></Route>
+                <Route path='news/' element={<Weather/>}></Route>
 
             </Routes>
         </Router>
